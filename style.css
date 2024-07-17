@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #14182a;
+}
+/* ---navbar--- */
+.bg-blue{
+    background-color: #1b2039 !important;
+}
+/* ----banner----- */
+
+.banner{
+    background-color: #14182a;
+}
+.record{
+    color: #3bc8e7;
+}
+.banner p{
+    color: #606165;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.banner h2{
+    margin-top: 120px;
+    margin-bottom: 30px;
+    font-family: "Anton SC", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+.content{
+    padding-top: 40px;
+    
+    
+}
+.ban-btn{
+    background-color: #3bc8e7 !important;
+    border: none !important;
+    border-radius: 36px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 20px;
+
+}
+.ban-btn:hover{
+    box-shadow: 0px 0px 20px 0px #3bc8e7;
+    transition: ease-in;
+
+}
+/* ----banner----- */
+
+/* ------music-------- */
+.head{
+    color: white;
+    text-align: start;
+    font-family:  "Poppins", sans-serif;
+
+}
+.musiclist{
+    background-color: #14182a;
+    text-align: center;
+    
+
+}
+.musiclist p{
+    text-align: center;
+    color: yellow;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+.img1{
+    border-radius: 110px;
+}
+.img2{
+    border-radius: 15px;
+    
+}
+
+/* ------music-------- */
+
+/* --------music bar---------- */
+.musicbar{
+    background-color: #14182a;
+    color: white;
+
+
+
+}
+
+
+/* --------music bar---------- */
+.bar-img{
+    border-radius: 8px;
+}
+.bar-row{
+    border-bottom: 2px solid #252b4b;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    
+    
+    
+}
+
+
+/* -------gallery------ */
+
+.gallery{
+    background-color: #14182a;
+    padding: 23px 0;
+    margin: -15px;
+    
+}
+.gallery img{
+    border-radius: 15px;
+    
+}
+.first-img{
+    height: 360px;
+}
+.sub-col-row1 img,.sub-col-row2 img{
+    height: 170px;
+
+}
+.sub-col-row1 img{
+    margin-bottom: 10px;
+}
+.sub-col-row2 img{
+    margin-top: 10px;
+}
+
+/* -------gallery------ */
+ 
+/* footer */
+footer{
+    background-color: #14182a;
+
+
+}
+.footer-head{
+    color:  #3bc8e7;
+    font-family: "Poppins", sans-serif;
+
+}
+.footer-p{
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+.footer-img3{
+   margin-top: 5px;
+}
+.form1{
+    border-radius: 2px;
+    border: none;
+}
+.form2{
+    border-radius: 2px;
+    border: none;
+    margin-left: 12px;
+}
+.footer-btn{
+    
+    
+    
+}
+.contact{
+    margin-left: -9px;
+}
+.last-footer{
+    /* padding-left: 124px; */
+
+}
+.second-footer{
+    /* padding-left: 35px; */
+}
+.banner-img{
+    
+}
+
+
+
+
+
+/* -----media query------ */
+@media all and (max-width:992px){
+    .navbar-toggler{
+        background-color: white;
+    }
+    .banner-img{
+        height: 450px;
+        
+        
+
+    }
+    .navbar{
+        margin-right: -10px;
+
+    }
+    .footer{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+    
+
+
+
